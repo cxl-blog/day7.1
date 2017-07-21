@@ -1,0 +1,12 @@
+day7_user_system:
+    resource: "@day7UserSystemBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+UserSystemBundle:
+    resource: "@day7UserSystemBundle/Resources/config/user_routing.yml"
+    prefix:   /UserSystemBundle
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

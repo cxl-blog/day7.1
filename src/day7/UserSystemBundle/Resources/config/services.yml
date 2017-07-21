@@ -1,0 +1,4 @@
+services:
+#    day7_user_system.example:
+#        class: day7\UserSystemBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

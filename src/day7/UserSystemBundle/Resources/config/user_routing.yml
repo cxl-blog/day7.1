@@ -1,0 +1,31 @@
+user_listUser:
+    path: /listUserAction
+    defaults: { _controller: day7UserSystemBundle:User:listUser}
+
+user_index:
+    path: /indexAction
+    defaults: { _controller: day7UserSystemBundle:User:index}
+
+user_addUser:
+    path: /addUserAction
+    defaults: { _controller: day7UserSystemBundle:User:addUser}
+
+user_deleteUser:
+    path: /deleteUserAction
+    defaults: { _controller: day7UserSystemBundle:User:deleteUser}
+
+user_getUser:
+    path: /getUserAction
+    defaults: { _controller: day7UserSystemBundle:User:getUser}
+
+user_updateUser:
+    path: /updateUserAction
+    defaults: { _controller: day7UserSystemBundle:User:updateUser}
+
+user_selectUser:
+    path: /selectUserAction
+    defaults: { _controller: day7UserSystemBundle:User:selectUser}
+
+user_searchUsertUser:
+    path: /searchUserAction
+    defaults: { _controller: day7UserSystemBundle:User:searchUser}
